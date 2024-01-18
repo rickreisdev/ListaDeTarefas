@@ -1,0 +1,43 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+h1,h2,h3,h4,p {
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer {
+    padding-top: 200px;
+    margin-bottom: 15px;
+}
+
+footer h3 {
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer span {
+    color: #0FD90F;
+    font-family: 'Poppins', sans-serif;
+}
