@@ -1,6 +1,6 @@
-# Portifólio rickreisme (2.0)
+# Lista de Tarefas
 
-Versão reformulada do meu portfólio.
+Página da web que apresenta uma lista de tarefas (to do list) que permite adicionar tasks e marcar elas como concluídas.
 
 ## Tecnologias usadas
 
