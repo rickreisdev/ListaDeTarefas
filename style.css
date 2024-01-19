@@ -4,19 +4,22 @@
     margin: 0;
 }
 
-body {
-    background-color: black;
+h1,h2,h3,h4,p,ul {
+    color: white;
 }
 
-h1,h2,h3,h4,p {
-    color: white;
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    gap: 3rem;
 }
 
 .titulo h1 {
@@ -24,7 +27,89 @@ main {
     padding-bottom: 30px;
 }
 
+.titulo span{
+    color: #0FD90F;
+}
+
+.task_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#input_task, #btn_task{
+    font-size: 1rem;
+    outline: none;
+    padding: 1rem;
+}
+
+#input_task{
+    width: 30rem;
+    border-radius: 1.5rem;
+    border: none;
+}
+
+#btn_task{
+    background-color: rgb(35, 35, 35);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+    border: #0FD90F 0px solid;
+}
+
+.btn_task:hover{
+    background-color: rgb(24, 24, 24);
+}
+
+#to-do-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0;
+}
+
+#to-do-list li{
+    list-style-type: none;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#btnDone{
+    background-color: #0FD90F;;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding: .4rem .8rem;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+#btnDone:hover{
+    background-color: #04a804;
+}
+
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 200px;
     margin-bottom: 15px;
 }
@@ -34,10 +119,8 @@ footer h3 {
     color: white;
     font-weight: 600;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
 }
 
 footer span {
     color: #0FD90F;
-    font-family: 'Poppins', sans-serif;
 }
