@@ -8,4 +8,4 @@ Projeto inspirado no vídeo do Gustavo Neitzke.
 
 HTML, CSS, JavaScript, Local Storage
 
-Foi utilizado HTML e CSS para a construção e estilização da página e JavaScript para a lógica de armazenamento das tasks no Local Storage e exibição delas no HTML da página e também para a validação das tasks digitas pelo usuário enquanto deixar o campo de digitação em branco, e digitar uma task que já esteja na lista, incluindo os cenários quando é digitada uma task já incluída acrescentando espaço no começo ou no final do termo.
+Foi utilizado HTML e CSS para a construção e a estilização da página e JavaScript para a lógica de armazenamento das tasks no Local Storage e exibição delas no HTML da página e também para a validação das tasks digitas pelo usuário enquanto deixar o campo de digitação em branco, e digitar uma task que já esteja na lista, incluindo os cenários quando é digitada uma task já incluída acrescentando espaço no começo ou no final do termo.
