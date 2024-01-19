@@ -65,7 +65,7 @@ main {
     border: #0FD90F 0px solid;
 }
 
-.btn_task:hover{
+#btn_task:hover{
     background-color: rgb(24, 24, 24);
 }
 
@@ -83,6 +83,14 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition: .4s;
+   
+}
+
+#to-do-list li:hover{
+    background-color: rgb(35, 35, 35);
+    border-radius: 1.5rem;
+    padding-left: 1rem;
 }
 
 #btnDone{
@@ -110,7 +118,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 200px;
+    padding-top: 100px;
     margin-bottom: 15px;
 }
 
