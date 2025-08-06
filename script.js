@@ -66,4 +66,10 @@ function doneTask(data) {
     showTask()
 }
 
+function showCurrentYear() {
+    let year = new Date().getFullYear()
+    document.getElementById('year').innerHTML = year
+}
+
 showTask()
+showCurrentYear()
